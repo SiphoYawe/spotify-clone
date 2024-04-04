@@ -12,6 +12,12 @@ export default function Home() {
 					<ListItem image="/images/liked.png" name="Liked Songs" href="" />
 				</div>
 			</Header>
+			<div className="mb-7 mt-2 px-6">
+				<div className="flex items-center justify-between">
+					<h1 className="text-2xl font-semibold text-white">Newest Songs</h1>
+				</div>
+				<div>List of Songs!</div>
+			</div>
 		</div>
 	);
 }
