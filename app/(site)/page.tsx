@@ -9,7 +9,7 @@ export default function Home() {
 					<h1 className="text-3xl font-semibold text-white">Welcome Back</h1>
 				</div>
 				<div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-					<ListItem />
+					<ListItem image="/images/liked.png" name="Liked Songs" href="" />
 				</div>
 			</Header>
 		</div>
